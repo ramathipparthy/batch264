@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart]">
+  <test thread-count="5" name="Flipkart functional Testing on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="functionalTesting.FlipkartTesting">
+        <methods>
+          <include name="reportInitialize"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyProductNameandPrice"/>
+          <include name="saveReport"/>
+        </methods>
+      </class> <!-- functionalTesting.FlipkartTesting -->
+    </classes>
+  </test> <!-- Flipkart functional Testing on chrome(failed) -->
+</suite> <!-- Failed suite [Flipkart] -->

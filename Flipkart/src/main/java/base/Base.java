@@ -83,6 +83,7 @@ public class Base
 	public void saveReport()
 	{
 		report.flush();  //save the report.
+	
 	}
 	public void takeScreenshot(String path)
 	{

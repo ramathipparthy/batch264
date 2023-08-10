@@ -90,6 +90,7 @@ public class FlipkartTesting extends Base
 			takeScreenshot("ProductName_Price_"+count+".png");
 		}
 		count++;
+		driver.close();
 		
 		
 	}
